@@ -23,7 +23,7 @@ h2 {
 h3 {
   font-style: normal;
   font-size:20px;
-  font-weight:700;
+  font-weight:300;
   color: white; 
   display: flex;
   align-items: center;
@@ -42,20 +42,10 @@ display: flex;
 align-items: center;
 justify-content:center;
 }
-h3 {
-  font-style: normal;
-  font-size:20px;
-  font-weight:300;
-  color: white; 
-  display: flex;
-  align-items: center;
-  justify-content: center
 
-
-}
 .home-content{
   background-image: "foto2.jpg";
-  padding: 30px;
+  padding: 24px;
   font-size: 16px;
   background-repeat: no-repeat;
   background-size: cover;
