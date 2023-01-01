@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" )
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing:border-box ;
+}
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -68,14 +74,49 @@ justify-content:center;
   border-radius: 50%;
 }
 .home-content--body {
-  width: 80vw;
-  height: 80vh;
+  width: 100vw;
+  height: 100vh;
   padding:24px;
   margin: 20px;
   background-color: 9999A1;
   color: black;
   font-weight: 300;
 }
+.form__input{
+  font-family: inherit;
+  
+}
+.form__cta{
+  color: white;
+  font-family: inherit ;
+  background-color: orangered;
+  border-color: orangered;
+  border-radius: 10px;
+  width: 40%;
+  margin-left: auto;
+}
+.form{
+
+  background-color: #0A0909 ;
+  margin: auto;
+  width: 100%;
+  
+}
+.form__container{
+  height: 40%;
+  width: 80%;
+  padding: 40px;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100% ;
+}
+.form__title{
+  color: white;
+  text-align: left;
+  font-size: 24px;
+  margin-bottom:.4em ;
+}
+
 
 
 
