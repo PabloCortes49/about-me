@@ -1,9 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" )
-*{
-  margin:0 ;
-  padding: 0;
-  box-sizing:border-box ;
-}
+
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -39,17 +34,18 @@ h3 {
   height: 100vh;
 }
 ​
-.home-header {
-width: 100vw;
-height: 100vh;
-background-color: #0A0909;
-color: white;
-display: flex;
-align-items: center;
-justify-content:center;
+  .home-header {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0A0909;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content:center;
 }
 
 .home-content{
+  
   background-image: "foto2.jpg";
   padding: 24px;
   font-size: 16px;
@@ -75,29 +71,41 @@ justify-content:center;
 }
 .home-content--body {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   padding:24px;
-  margin: 20px;
+  margin: 0;
   background-color: 9999A1;
   color: black;
   font-weight: 300;
 }
 .form__input{
   font-family: inherit;
+  font-size: 1rem;
+  padding: .8em 1em;
 }
+.form__input--message{
+  resize: none;
+  padding: 3em 1em;
+  margin-bottom:.5em;
+}
+
 .form__cta{
   color: white;
   font-family: inherit ;
   background-color: orangered;
   border-color: orangered;
-  border-radius: 10px;
+  border-radius:  .6em;
   width: 40%;
   margin-left: auto;
+  padding:.7em 0;
+  cursor: pointer;
+ 
 }
 .form{
   background-color: #0A0909 ;
   margin: auto;
-  width: 100%;
+  width: 100vw;
+  height: 80vh;
 }
 .form__container{
   height: 60%;
