@@ -7,6 +7,8 @@ body {
   font-weight: 300;
   color: black;
 }
+
+
 h1,
 h2,
 h3,
@@ -19,11 +21,11 @@ h6 {
 h2 {
   font-style: normal;
   font-size:16px;
-  font-weight:300px ;
+  font-weight:300 ;
 }
+
 h3 {
   font-style: normal;
-  font-size:20px;
   font-weight:300;
   color: white; 
   display: flex;
@@ -34,19 +36,12 @@ h3 {
   height: 100vh;
 }
 ​
-  .home-header {
-  width: 100vw;
-  height: 100vh;
-  background-color: #0A0909;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content:center;
-}
+ 
 
 .home-content{
-  
   background-image: "foto2.jpg";
+  width: 100vw;
+  height: 100vh;
   padding: 24px;
   font-size: 16px;
   background-repeat: no-repeat;
@@ -61,7 +56,7 @@ h3 {
 
 .home-content--bg-2 {
   background-image: "foto.jpg";
-  margin
+ 
 }
 ​
 .home-content__foto.jpg {
@@ -71,13 +66,19 @@ h3 {
 }
 .home-content--body {
   width: 100vw;
-  height: 80vh;
+  height: 110vh;
   padding:24px;
   margin: 0;
+  display: flex;
   background-color: 9999A1;
   color: black;
   font-weight: 300;
 }
+.text{
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+ }
 .form__input{
   font-family: inherit;
   font-size: 1rem;
@@ -92,6 +93,7 @@ h3 {
 .form__cta{
   color: white;
   font-family: inherit ;
+  font-weight: 400;
   background-color: orangered;
   border-color: orangered;
   border-radius:  .6em;
@@ -105,10 +107,10 @@ h3 {
   background-color: #0A0909 ;
   margin: auto;
   width: 100vw;
-  height: 80vh;
+  height: 130vh;
 }
 .form__container{
-  height: 60%;
+  height: 100%;
   width: 80%;
   padding: 40px;
   display: grid;
