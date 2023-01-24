@@ -152,6 +152,25 @@ h3 {
 }
 
 
+
+@media (min-width: 768px) {
+  .home-content--body .text {
+    columns: 2;
+    width: 40%;
+    align-items: center;
+    padding-left : 450px;
+    padding-top: 160px;
+  }
+}
+@media (min-width: 768px) {
+  .home-content--body .text h2{
+    text-align: left;
+    margin-top: -58px ;
+    margin-left: 120px;
+    
+
+}
+}
 .contacto{
   margin-top: -24px;
 }
