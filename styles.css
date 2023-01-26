@@ -97,6 +97,7 @@ h3 {
   background-size: cover;
   padding-top: 320px;
   min-height: 600px;
+  
 }
 
 
@@ -120,6 +121,7 @@ h3 {
 .about-text {
   padding: 20px;
 }
+
 
 .home-content__foto{
   align-items: center;
@@ -215,7 +217,7 @@ h3 {
 }
 .form__container{
   height: 100%;
-  width: 100%;
+  width: 80%;
   padding: 40px;
   display: grid;
   gap: 1em;
