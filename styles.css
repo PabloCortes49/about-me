@@ -66,7 +66,7 @@ header h3 {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .box{
     width: 48px;
     height: 48px;
