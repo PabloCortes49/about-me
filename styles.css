@@ -25,7 +25,13 @@ h2 {
   font-weight:300 ;
 }
 
-h3 {
+nav {
+  color: white;
+  background-color: #0A0909;
+  display: none;
+}
+
+header h3 {
   font-style: normal;
   font-weight:300;
   color: white; 
@@ -37,16 +43,11 @@ h3 {
   height: 120vh;
   margin-top: -100px;
   margin-bottom: 0px;
-}
-
-.home-header h3{
   font-size: 16px;
 }
-.main-menu {
-  color: white;
-  background-color: #0A0909;
-  display: none;
-}
+
+
+
 
 @media only screen and (min-width: 768px) {
   .menu-icon {
